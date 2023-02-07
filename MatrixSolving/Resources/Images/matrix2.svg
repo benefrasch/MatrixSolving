@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: square;
+        stroke-width: 8px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche 1">
+    <path id="Rechteck_1" data-name="Rechteck 1" class="cls-1" d="M25,20H55a5,5,0,0,1,5,5V55a5,5,0,0,1-5,5H25a5,5,0,0,1-5-5V25A5,5,0,0,1,25,20Z"/>
+    <path id="Rechteck_1_Kopie_2" data-name="Rechteck 1 Kopie 2" class="cls-1" d="M25,90H55a5,5,0,0,1,5,5v30a5,5,0,0,1-5,5H25a5,5,0,0,1-5-5V95A5,5,0,0,1,25,90Z"/>
+    <path id="Rechteck_1_Kopie_3" data-name="Rechteck 1 Kopie 3" class="cls-1" d="M95,90h30a5,5,0,0,1,5,5v30a5,5,0,0,1-5,5H95a5,5,0,0,1-5-5V95A5,5,0,0,1,95,90Z"/>
+    <path id="Rechteck_1_Kopie" data-name="Rechteck 1 Kopie" class="cls-1" d="M95,20h30a5,5,0,0,1,5,5V55a5,5,0,0,1-5,5H95a5,5,0,0,1-5-5V25A5,5,0,0,1,95,20Z"/>
+  </g>
+</svg>

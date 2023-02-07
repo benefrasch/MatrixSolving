@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 6px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche 1">
+    <path id="Rechteck_1" data-name="Rechteck 1" class="cls-1" d="M24.5,20h16A4.5,4.5,0,0,1,45,24.5v16A4.5,4.5,0,0,1,40.5,45h-16A4.5,4.5,0,0,1,20,40.5v-16A4.5,4.5,0,0,1,24.5,20Z"/>
+    <path id="Rechteck_1_Kopie" data-name="Rechteck 1 Kopie" class="cls-1" d="M68.5,20h16A4.5,4.5,0,0,1,89,24.5v16A4.5,4.5,0,0,1,84.5,45h-16A4.5,4.5,0,0,1,64,40.5v-16A4.5,4.5,0,0,1,68.5,20Z"/>
+    <path id="Rechteck_1_Kopie_2" data-name="Rechteck 1 Kopie 2" class="cls-1" d="M112.5,20h16a4.5,4.5,0,0,1,4.5,4.5v16a4.5,4.5,0,0,1-4.5,4.5h-16a4.5,4.5,0,0,1-4.5-4.5v-16A4.5,4.5,0,0,1,112.5,20Z"/>
+    <path id="Rechteck_1_Kopie_3" data-name="Rechteck 1 Kopie 3" class="cls-1" d="M23.5,62h16A4.5,4.5,0,0,1,44,66.5v16A4.5,4.5,0,0,1,39.5,87h-16A4.5,4.5,0,0,1,19,82.5v-16A4.5,4.5,0,0,1,23.5,62Z"/>
+    <path id="Rechteck_1_Kopie_3-2" data-name="Rechteck 1 Kopie 3" class="cls-1" d="M67.5,62h16A4.5,4.5,0,0,1,88,66.5v16A4.5,4.5,0,0,1,83.5,87h-16A4.5,4.5,0,0,1,63,82.5v-16A4.5,4.5,0,0,1,67.5,62Z"/>
+    <path id="Rechteck_1_Kopie_3-3" data-name="Rechteck 1 Kopie 3" class="cls-1" d="M111.5,62h16a4.5,4.5,0,0,1,4.5,4.5v16a4.5,4.5,0,0,1-4.5,4.5h-16a4.5,4.5,0,0,1-4.5-4.5v-16A4.5,4.5,0,0,1,111.5,62Z"/>
+    <path id="Rechteck_1_Kopie_4" data-name="Rechteck 1 Kopie 4" class="cls-1" d="M24.5,105h16a4.5,4.5,0,0,1,4.5,4.5v16a4.5,4.5,0,0,1-4.5,4.5h-16a4.5,4.5,0,0,1-4.5-4.5v-16A4.5,4.5,0,0,1,24.5,105Z"/>
+    <path id="Rechteck_1_Kopie_4-2" data-name="Rechteck 1 Kopie 4" class="cls-1" d="M68.5,105h16a4.5,4.5,0,0,1,4.5,4.5v16a4.5,4.5,0,0,1-4.5,4.5h-16a4.5,4.5,0,0,1-4.5-4.5v-16A4.5,4.5,0,0,1,68.5,105Z"/>
+    <path id="Rechteck_1_Kopie_4-3" data-name="Rechteck 1 Kopie 4" class="cls-1" d="M112.5,105h16a4.5,4.5,0,0,1,4.5,4.5v16a4.5,4.5,0,0,1-4.5,4.5h-16a4.5,4.5,0,0,1-4.5-4.5v-16A4.5,4.5,0,0,1,112.5,105Z"/>
+  </g>
+</svg>

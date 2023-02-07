@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 4px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche 1">
+    <path id="Rechteck_1" data-name="Rechteck 1" class="cls-1" d="M24,20H36a4,4,0,0,1,4,4V36a4,4,0,0,1-4,4H24a4,4,0,0,1-4-4V24A4,4,0,0,1,24,20Z"/>
+    <path id="Rechteck_1_Kopie" data-name="Rechteck 1 Kopie" class="cls-1" d="M54,20H66a4,4,0,0,1,4,4V36a4,4,0,0,1-4,4H54a4,4,0,0,1-4-4V24A4,4,0,0,1,54,20Z"/>
+    <path id="Rechteck_1_Kopie_2" data-name="Rechteck 1 Kopie 2" class="cls-1" d="M84,20H96a4,4,0,0,1,4,4V36a4,4,0,0,1-4,4H84a4,4,0,0,1-4-4V24A4,4,0,0,1,84,20Z"/>
+    <path id="Rechteck_1_Kopie_3" data-name="Rechteck 1 Kopie 3" class="cls-1" d="M114,20h12a4,4,0,0,1,4,4V36a4,4,0,0,1-4,4H114a4,4,0,0,1-4-4V24A4,4,0,0,1,114,20Z"/>
+    <path id="Rechteck_1_Kopie_4" data-name="Rechteck 1 Kopie 4" class="cls-1" d="M24,50H36a4,4,0,0,1,4,4V66a4,4,0,0,1-4,4H24a4,4,0,0,1-4-4V54A4,4,0,0,1,24,50Z"/>
+    <path id="Rechteck_1_Kopie_4-2" data-name="Rechteck 1 Kopie 4" class="cls-1" d="M54,50H66a4,4,0,0,1,4,4V66a4,4,0,0,1-4,4H54a4,4,0,0,1-4-4V54A4,4,0,0,1,54,50Z"/>
+    <path id="Rechteck_1_Kopie_4-3" data-name="Rechteck 1 Kopie 4" class="cls-1" d="M84,50H96a4,4,0,0,1,4,4V66a4,4,0,0,1-4,4H84a4,4,0,0,1-4-4V54A4,4,0,0,1,84,50Z"/>
+    <path id="Rechteck_1_Kopie_4-4" data-name="Rechteck 1 Kopie 4" class="cls-1" d="M114,50h12a4,4,0,0,1,4,4V66a4,4,0,0,1-4,4H114a4,4,0,0,1-4-4V54A4,4,0,0,1,114,50Z"/>
+    <path id="Rechteck_1_Kopie_5" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M24,80H36a4,4,0,0,1,4,4V96a4,4,0,0,1-4,4H24a4,4,0,0,1-4-4V84A4,4,0,0,1,24,80Z"/>
+    <path id="Rechteck_1_Kopie_5-2" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M54,80H66a4,4,0,0,1,4,4V96a4,4,0,0,1-4,4H54a4,4,0,0,1-4-4V84A4,4,0,0,1,54,80Z"/>
+    <path id="Rechteck_1_Kopie_5-3" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M84,80H96a4,4,0,0,1,4,4V96a4,4,0,0,1-4,4H84a4,4,0,0,1-4-4V84A4,4,0,0,1,84,80Z"/>
+    <path id="Rechteck_1_Kopie_5-4" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M114,80h12a4,4,0,0,1,4,4V96a4,4,0,0,1-4,4H114a4,4,0,0,1-4-4V84A4,4,0,0,1,114,80Z"/>
+    <path id="Rechteck_1_Kopie_5-5" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M24,110H36a4,4,0,0,1,4,4v12a4,4,0,0,1-4,4H24a4,4,0,0,1-4-4V114A4,4,0,0,1,24,110Z"/>
+    <path id="Rechteck_1_Kopie_5-6" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M54,110H66a4,4,0,0,1,4,4v12a4,4,0,0,1-4,4H54a4,4,0,0,1-4-4V114A4,4,0,0,1,54,110Z"/>
+    <path id="Rechteck_1_Kopie_5-7" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M84,110H96a4,4,0,0,1,4,4v12a4,4,0,0,1-4,4H84a4,4,0,0,1-4-4V114A4,4,0,0,1,84,110Z"/>
+    <path id="Rechteck_1_Kopie_5-8" data-name="Rechteck 1 Kopie 5" class="cls-1" d="M114,110h12a4,4,0,0,1,4,4v12a4,4,0,0,1-4,4H114a4,4,0,0,1-4-4V114A4,4,0,0,1,114,110Z"/>
+  </g>
+</svg>
