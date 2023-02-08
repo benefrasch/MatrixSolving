@@ -1,3 +1,4 @@
+using CommunityToolkit.Maui.Views;
 using System.Collections.ObjectModel;
 
 namespace MatrixSolving.Views;
@@ -24,6 +25,7 @@ public partial class SizeSelectPage : ContentPage
                 new (){Text= "3x3",ImageSource="matrix3.png",Size= 3 },
                 new (){Text= "4x4",ImageSource="matrix4.png",Size= 4 },
                 new (){Text= "5x5",ImageSource="matrix5.png",Size= 5 },
+                new (){Text= "custom",ImageSource="matrix_custom.png",Size= 0 },
             };
 
         MyListView.ItemsSource = Items;
@@ -34,7 +36,20 @@ public partial class SizeSelectPage : ContentPage
         if (e.Item == null)
             return;
 
-        await Navigation.PushAsync(new MatrixPage(((SizeListItem)e.Item).Size));
+        int size = ((SizeListItem)e.Item).Size;
+
+        if (size == 0)
+        {
+            if (!int.TryParse(await DisplayPromptAsync("Size", "enter the size you want"), out size))
+                return;
+            if (size > 20)
+            {
+                await DisplayAlert("nope", "this is too much for me", "OK");
+                return;
+            }
+        }
+
+        await Navigation.PushAsync(new MatrixPage(size));
 
         //Deselect Item
         ((ListView)sender).SelectedItem = null;

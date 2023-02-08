@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 152.778px;
+        fill: #fff;
+        font-family: "Myriad Pro";
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 8px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche 1">
+    <image id="Ebene_1" data-name="Ebene 1" width="150" height="150" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAABm0lEQVR4nO3SMRHAMBDAsG+HoAh/XkXSkIg3CYLPz7f2P3DZKygFY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAWCWORMBYJY5EwFgljkTAW983MAfMHAy4YxRuvAAAAAElFTkSuQmCC"/>
+    <text id="n" class="cls-1" x="33.239" y="112.533">n</text>
+    <path id="Rechteck_1" data-name="Rechteck 1" class="cls-2" d="M25,20H125a5,5,0,0,1,5,5V125a5,5,0,0,1-5,5H25a5,5,0,0,1-5-5V25A5,5,0,0,1,25,20Z"/>
+  </g>
+</svg>
