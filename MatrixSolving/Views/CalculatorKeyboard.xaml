@@ -4,7 +4,6 @@
              x:Class="MatrixSolving.Views.CalculatorKeyboard">
     <ContentView.Resources>
         <Style TargetType="Button">
-            <Setter Property="CornerRadius" Value="2"/>
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="TextColor" Value="Black"/>
         </Style>
