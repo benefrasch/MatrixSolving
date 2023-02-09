@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 97.222px;
+        fill: #fff;
+        font-family: "Myriad Pro";
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche 1">
+    <text id="i" class="cls-1" x="63.596" y="107.618">i</text>
+    <circle class="cls-2" cx="75" cy="75" r="60"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MatrixSolving.Views.AboutPage"
+             Title="About">
+    <ContentPage.Resources>
+        <Style TargetType="Line">
+            <Setter Property="X2" Value="300"/>
+            <Setter Property="Stroke" Value="{StaticResource Gray950}"/>
+            <Setter Property="StrokeThickness" Value="3"/>
+        </Style>
+    </ContentPage.Resources>
+    
+<VerticalStackLayout Padding="10"  Spacing="4">
+        <Label Text="MatrixSolving" FontSize="20" FontAttributes="Bold"/>
+        <Label x:Name="VersionLabel" TextColor="Gray"/>
+        <Line />
+        <Label Text="Purpose:&#10;This app allows you to enter a linear&#10;equation system and solve it"/>
+        <Line/>
+        <Label Text="Developer:&#10;Benedikt Frasch"/>
+        <Line/>
+        <HorizontalStackLayout Spacing="4" Padding="4">
+            <HorizontalStackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Github_Tapped"/>
+            </HorizontalStackLayout.GestureRecognizers>
+            <Image Source="github_mark.png" HeightRequest="20"/>
+            <Label Text="Github repository"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

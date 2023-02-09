@@ -15,11 +15,11 @@
 		<ApplicationTitle>MatrixSolving</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.matrixsolving</ApplicationId>
+		<ApplicationId>matrixsolving</ApplicationId>
 		<ApplicationIdGuid>636f91c6-18eb-4b54-ae2b-2504bcc8b4b6</ApplicationIdGuid>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion>1.0.1</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
@@ -65,12 +65,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\github_mark.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="4.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<MauiXaml Update="Views\AboutPage.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="Views\CalculatorKeyboard.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>

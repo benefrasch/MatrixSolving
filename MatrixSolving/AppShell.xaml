@@ -5,14 +5,35 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
     xmlns:local="clr-namespace:MatrixSolving"
-    Shell.FlyoutBehavior="Disabled">
+    Shell.FlyoutBehavior="Flyout"
+    FlyoutBackgroundColor="{StaticResource Gray950}"
+    FlyoutWidth="280">
     <Shell.Behaviors>
         <mct:StatusBarBehavior StatusBarColor="{StaticResource Gray950}"/>
     </Shell.Behaviors>
 
-    <ShellContent
-        Title="Home"
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="150" BackgroundColor="{StaticResource Primary}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="appicon_inapp.png"/>
+            <Label Grid.Column="1" VerticalOptions="Center" Text="Matrix&#10;Solving" 
+                   FontSize="30" FontAttributes="Bold"/>
+        </Grid>
+    </Shell.FlyoutHeader>
+    
+    <FlyoutItem Title="MatrixSolving" Icon="equation_symbol.png">
+        <ShellContent
         ContentTemplate="{DataTemplate local:Views.SizeSelectPage}"
         Route="MainPage" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title="About" Icon="info_symbol.png">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:Views.AboutPage}"
+        Route="MainPage" />
+    </FlyoutItem>
 
 </Shell>
