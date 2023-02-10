@@ -21,7 +21,7 @@
                                HeightRequest="60" WidthRequest="60">
                             <Image.Behaviors>
                                 <toolkit:IconTintColorBehavior 
-                                    TintColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryLight}}" />
+                                    TintColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Tertiary}}" />
                             </Image.Behaviors>
                         </Image>
                         <Label Grid.Column="1" Text="{Binding Text}" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"

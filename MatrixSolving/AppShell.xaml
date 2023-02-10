@@ -30,7 +30,7 @@
                 <Image Grid.Column="0" Source="{Binding FlyoutIcon}" HorizontalOptions="Start">
                     <Image.Behaviors>
                         <toolkit:IconTintColorBehavior 
-                                    TintColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryLight}}" />
+                                    TintColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Tertiary}}" />
                     </Image.Behaviors>
                 </Image>
                 <Label Grid.Column="1" Text="{Binding Title}" VerticalTextAlignment="Center" 
