@@ -43,4 +43,10 @@ public partial class CalculatorKeyboard : ContentView
     {
         SolveClicked?.Invoke(this, EventArgs.Empty);
     }
+
+    public event EventHandler NextClicked;
+    private void Next_Pressed(object sender, EventArgs e)
+    {
+        NextClicked?.Invoke(this, EventArgs.Empty);
+    }
 }

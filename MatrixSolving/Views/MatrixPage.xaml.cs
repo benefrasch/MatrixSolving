@@ -18,6 +18,7 @@ public partial class MatrixPage : ContentPage
             _currentEntry?.SetBorderColor((Color)App.ResourceDictionary["Colors"]["Gray500"]);
             _currentEntry = value;
             _currentEntry.SetBorderColor((Color)App.ResourceDictionary["Colors"]["Tertiary"]);
+            calculatorKeyboard.Text = value.Text;
         }
         get
         {
@@ -38,6 +39,7 @@ public partial class MatrixPage : ContentPage
             CurrentEntry.Text = calculatorKeyboard.Text;
         };
         calculatorKeyboard.SolveClicked += SolveSystem;
+        calculatorKeyboard.NextClicked += SelectNextEntry;
 
         //initialize MatrixEntry Arrays
         leftSide = new MatrixEntry[size, size];
@@ -66,6 +68,8 @@ public partial class MatrixPage : ContentPage
             }
             AddMatrixEntry(matrix, size, row, false);
         }
+        //select first entry at the start
+        CurrentEntry = (MatrixEntry)matrix.Children[0];
         MatrixScrollView.Content = matrix;
 
     }
@@ -78,12 +82,9 @@ public partial class MatrixPage : ContentPage
     private void AddMatrixEntry(Grid matrix, int column, int row, bool left)
     {
         MatrixEntry entry = new();
-        if (column == 0 && row == 0)
-            CurrentEntry = entry;
         entry.Clicked += delegate
         {
             CurrentEntry = entry;
-            calculatorKeyboard.Text = entry.Text;
         };
         matrix.Add(entry, column, row);
 
@@ -108,5 +109,12 @@ public partial class MatrixPage : ContentPage
 
         double[] result = Calculations.GaussianElimination(left, right);
         this.ShowPopup(new ResultView(result));
+    }
+
+    private void SelectNextEntry(object sender, System.EventArgs e)
+    {
+        Grid matrix = (Grid)MatrixScrollView.Content;
+        int currentIndex = matrix.Children.IndexOf(CurrentEntry);
+        CurrentEntry = (MatrixEntry)matrix.Children[currentIndex + 1];
     }
 }
