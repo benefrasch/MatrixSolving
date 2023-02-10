@@ -3,13 +3,13 @@
     x:Class="MatrixSolving.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+    xmlns:toolkit="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
     xmlns:local="clr-namespace:MatrixSolving"
     Shell.FlyoutBehavior="Flyout"
-    FlyoutBackgroundColor="{StaticResource Gray950}"
+    FlyoutBackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray950}}"
     FlyoutWidth="280">
     <Shell.Behaviors>
-        <mct:StatusBarBehavior StatusBarColor="{StaticResource Gray950}"/>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Gray950}"/>
     </Shell.Behaviors>
 
     <Shell.FlyoutHeader>
@@ -23,13 +23,29 @@
                    FontSize="30" FontAttributes="Bold"/>
         </Grid>
     </Shell.FlyoutHeader>
-    
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Transparent" Padding="5"
+                      ColumnDefinitions="60,*" RowDefinitions="40">
+                <Image Grid.Column="0" Source="{Binding FlyoutIcon}" HorizontalOptions="Start">
+                    <Image.Behaviors>
+                        <toolkit:IconTintColorBehavior 
+                                    TintColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryLight}}" />
+                    </Image.Behaviors>
+                </Image>
+                <Label Grid.Column="1" Text="{Binding Title}" VerticalTextAlignment="Center" 
+                           FontSize="15" FontAttributes="Bold"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+
     <FlyoutItem Title="MatrixSolving" Icon="equation_symbol.png">
         <ShellContent
         ContentTemplate="{DataTemplate local:Views.SizeSelectPage}"
         Route="MainPage" />
     </FlyoutItem>
-    
+
     <FlyoutItem Title="About" Icon="info_symbol.png">
         <ShellContent
         ContentTemplate="{DataTemplate local:Views.AboutPage}"

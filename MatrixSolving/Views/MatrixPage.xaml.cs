@@ -15,9 +15,9 @@ public partial class MatrixPage : ContentPage
     {
         set
         {
-            _currentEntry?.SetBorderColor(Colors.Gray);
+            _currentEntry?.SetBorderColor((Color)App.ResourceDictionary["Colors"]["Gray500"]);
             _currentEntry = value;
-            _currentEntry.SetBorderColor(Color.FromArgb("fa1e34"));
+            _currentEntry.SetBorderColor((Color)App.ResourceDictionary["Colors"]["PrimaryLight"]);
         }
         get
         {
